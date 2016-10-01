@@ -1,4 +1,10 @@
 '''
+Task 5.2 - Color Maps
+
+applyColorMap(ImageObject, ColorIndex)
+
+This method applies a color map to an image.
+
 COLORMAP_AUTUMN = 0,
 COLORMAP_BONE = 1,
 COLORMAP_JET = 2,
@@ -16,8 +22,8 @@ import cv2
 
 image = cv2.imread('../resources/sample.jpg')
 
-rainbow = cv2.applyColorMap(image, cv2.COLORMAP_RAINBOW)
+result = cv2.applyColorMap(image, cv2.COLORMAP_RAINBOW)
 
-cv2.imshow('rainbow', rainbow)
+cv2.imshow('result', result)
 cv2.waitKey()
 cv2.destroyAllWindows()
