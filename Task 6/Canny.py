@@ -1,3 +1,10 @@
+'''
+Task 6 - Canny Edge Detection
+
+Canny(ImageObject, thresholds)
+
+Canny Edge Detection.
+'''
 import cv2
 import numpy as np
 
