@@ -1,3 +1,6 @@
+'''
+Task 4.1 - Basic Image Operations
+'''
 import cv2
 
 image = cv2.imread('../resources/sample.jpg')

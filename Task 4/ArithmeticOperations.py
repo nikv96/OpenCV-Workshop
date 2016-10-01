@@ -1,8 +1,18 @@
+'''
+Task 4.2 - Arithmetic Operations
+
+
+#addWeighted(Image1Object, weight, Image2Object, weight, GammaFactor)
+
+Add Weighted allows you to blend two images giving certain weightage to each image.
+'''
 import cv2
 import numpy as np
 
-image1 = cv2.imread('sample.jpg')
-image2 = cv2.imread('logo.jpg')
+image1 = cv2.imread('../resources/sample.jpg')
+image2 = cv2.imread('../resources/logo.png')
+
+image2 = cv2.resize(image2, (image1.shape[1], image1.shape[0]))
 
 waterMark = cv2.addWeighted(image1, 0.7, image2, 0.3, 0)
 
