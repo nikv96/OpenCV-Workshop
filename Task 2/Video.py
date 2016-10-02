@@ -27,7 +27,7 @@ import cv2
 
 capture = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'DIVX')
-output = cv2.VideoWriter('result.avi', fourcc, 20.0, (640,480), False)
+output = cv2.VideoWriter('../results/result.avi', fourcc, 20.0, (640,480), False)
 
 while(True):
     flag, frame = capture.read()

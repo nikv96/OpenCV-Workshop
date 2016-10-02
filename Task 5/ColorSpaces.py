@@ -8,7 +8,7 @@ This method allows you to change the color space of an image.
 import cv2
 import numpy as np
 
-image = cv2.imread('../resources/sample.jpg')
+image = cv2.imread('../resources/lena.jpeg')
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)

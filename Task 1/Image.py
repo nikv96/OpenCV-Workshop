@@ -11,7 +11,7 @@ grayFlag = 0 for grayscale
 '''
 import cv2
 
-image = cv2.imread('../resources/sample.jpg', 0)
+image = cv2.imread('../resources/lena.jpeg', 0)
 
 cv2.imshow('Result', image)
 

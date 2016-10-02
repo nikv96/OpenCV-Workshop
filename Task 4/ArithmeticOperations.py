@@ -9,7 +9,7 @@ Add Weighted allows you to blend two images giving certain weightage to each ima
 import cv2
 import numpy as np
 
-image1 = cv2.imread('../resources/sample.jpg')
+image1 = cv2.imread('../resources/lena.jpeg')
 image2 = cv2.imread('../resources/logo.png')
 
 image2 = cv2.resize(image2, (image1.shape[1], image1.shape[0]))

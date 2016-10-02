@@ -3,7 +3,7 @@ Task 4.1 - Basic Image Operations
 '''
 import cv2
 
-image = cv2.imread('../resources/sample.jpg')
+image = cv2.imread('../resources/lena.jpeg')
 
 print(image.shape)
 print(image.size)

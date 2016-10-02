@@ -20,7 +20,7 @@ COLORMAP_HOT = 11
 '''
 import cv2
 
-image = cv2.imread('../resources/sample.jpg')
+image = cv2.imread('../resources/lena.jpeg')
 
 result = cv2.applyColorMap(image, cv2.COLORMAP_RAINBOW)
 
