@@ -6,7 +6,19 @@ OpenCV is an open source library of pre implemented computer vision algorithms. 
 
 ### Installations
 1. Install [python 2.7](https://www.python.org/downloads/).
-2. Install the dependencies with ```pip install -r requirements.txt```
+2. Install numpy with ```pip install numpy```.
+
+For Windows:
+1. Install opencv python with ```pip install opencv-python```
+
+For MacOSX:
+1. Install [homebrew](http://brew.sh/).
+2. Tap the science packages with ```brew tap homebrew/science```.
+3. Install opencv with ```brew install opencv3 --with-contrib```.
+
+For Linux:
+1. Please refer to this [link](http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/) for installation.
+
 
 ### Introduction
 Images are seen by computers as a collection of pixels. A RGB image which appears to us as colored images would be seen by a computer as a collection of pixels whose values range from 0 to 255. A RGB image has 3 components for each pixel denoting Red, Green and Blue. A grayscaled image on the other hand would have 1 component denoting the intensity of the color black. 
