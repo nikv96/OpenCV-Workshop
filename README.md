@@ -28,8 +28,6 @@ Images are seen by computers as a collection of pixels. A RGB image which appear
 
 Computer vision makes use of these pixels to derive different conclusion about an image. A simple example would be - a transition from a pixel value of 0 to 1 is not very significant whereas a transition from 0 to 255 could be considered an edge.
 
-This workshop is intended to be more hands on than theory based. So I will be focusing a lot more on using the OpenCV library than explaining the concepts a lot.
-
 ## Task 1
 Write a program to simply read and display an image with OpenCV. Use the ```cv2.imwrite()``` function to then, store this image in your directory.
 
