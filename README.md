@@ -8,15 +8,15 @@ OpenCV is an open source library of pre implemented computer vision algorithms. 
 1. Install [python 2.7](https://www.python.org/downloads/).
 2. Install numpy with ```pip install numpy```.
 
-For Windows:
+#### For Windows:
 1. Install opencv python with ```pip install opencv-python```
 
-For MacOSX:
+#### For MacOSX:
 1. Install [homebrew](http://brew.sh/).
 2. Tap the science packages with ```brew tap homebrew/science```.
 3. Install opencv with ```brew install opencv3 --with-contrib```.
 
-For Linux:
+#### For Linux:
 1. Please refer to this [link](http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/) for installation.
 
 
