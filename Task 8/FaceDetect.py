@@ -1,3 +1,8 @@
+'''
+Task 7 - Haar Cascades
+
+Detect and Recognize objects in an image using a model.
+'''
 import numpy as np
 import cv2
 
