@@ -37,6 +37,8 @@ Write a program to capture a video and display it with OpenCV. In addition, writ
 ## Task 3
 Let us explore drawing functions. OpenCV allows you to draw on images with drawing functions. The options are lines, circles, rectangles, polygons and texts.
 
+Exercise - Recreate the Olympics symbol as close as possible!
+
 ## Task 4
 Let us now explore Image Operations. OpenCV-python stores images as numpy arrays. These arrays have several properties which turn out to be very useful factors of the images.
 
@@ -48,10 +50,14 @@ You can also pick a region of interest from this image.
 
 Another operation is an Image Blend.
 
+Exercise: Try to overwrite a region of the image with a black image.
+
 ## Task 5
 Color spaces are an important concept in image processing. A few commonly known color spaces are RGB, HSV and GRAY. 
 
 Color maps let you map known color spaces to other pixel values. A few known color maps are RAINBOW, AUTUMN and so on.
+
+Exercise: Try to get the image looking close to a thermal camera output.
 
 ## Task 6
 Canny Edge Detection is a commonly used computer vision algorithm to detect edges in images. We take a look at the transition from black to white in a grayscaled and if continuous elements map the same transition it can be determined as an edge.
@@ -59,5 +65,24 @@ Canny Edge Detection is a commonly used computer vision algorithm to detect edge
 ## Task 7
 HoughTransform is another commonly used computer vision algorithm to detect lines or circles in an image. HoughLine Transform makes use of the parametric equation of a line to determine if an edge is a line or not.
 
+Exercise - Find an image online with two circles. Detect the two circles with OpenCV and connect the centers with a line.
+
 ## Task 8
 HaarCascades is based on a paper by Viola and Jones on Rapid Object Detection. This algorithm can be used to train models to detect different types of objects.
+
+Exercise - Extend the detector to detect eyes. Then, extend the code to detect faces and eyes in a video.
+
+## Help & Feedback
+If you have any questions or feedback on the workshop, write to me at [nikv96@gmail.com](mailto:nikv96@gmail.com). I'd love to hear what you think about this workshop. :)
+
+## Errors
+If you find any mistakes/typos/bugs, please post an issue or create a pull request and I'll take a look at it! Thanks!
+
+## References
+1. [http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+2. [www.pyimagesearch.com/](www.pyimagesearch.com/)
+
+## Further Studies
+1. [http://opencv.org/documentation.html](http://opencv.org/documentation.html)
+2. [https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
+3. [http://www.pyimagesearch.com/](http://www.pyimagesearch.com/)
