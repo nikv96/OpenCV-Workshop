@@ -7,7 +7,6 @@ Task 4.2 - Arithmetic Operations
 Add Weighted allows you to blend two images giving certain weightage to each image.
 '''
 import cv2
-import numpy as np
 
 image1 = cv2.imread('../resources/lena.jpeg')
 image2 = cv2.imread('../resources/logo.png')

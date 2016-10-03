@@ -6,7 +6,6 @@ cvtColor(ImageObject, ColorIndex)
 This method allows you to change the color space of an image.
 '''
 import cv2
-import numpy as np
 
 image = cv2.imread('../resources/lena.jpeg')
 

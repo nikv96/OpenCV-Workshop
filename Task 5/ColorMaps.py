@@ -17,12 +17,14 @@ COLORMAP_COOL = 8,
 COLORMAP_HSV = 9,
 COLORMAP_PINK = 10,
 COLORMAP_HOT = 11
+
+Exercise: Try to get the image looking close to a thermal camera output.
 '''
 import cv2
 
 image = cv2.imread('../resources/lena.jpeg')
 
-result = cv2.applyColorMap(image, cv2.COLORMAP_RAINBOW)
+result = cv2.applyColorMap(image, cv2.COLORMAP_AUTUMN)
 
 cv2.imshow('result', result)
 cv2.waitKey()

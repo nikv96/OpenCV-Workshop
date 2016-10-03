@@ -6,7 +6,6 @@ Canny(ImageObject, thresholds)
 Canny Edge Detection.
 '''
 import cv2
-import numpy as np
 
 image = cv2.imread('../resources/lena.jpeg', 0)
 result = cv2.Canny(image, 100, 200)
