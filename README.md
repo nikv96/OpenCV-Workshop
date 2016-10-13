@@ -23,7 +23,7 @@ Clone this repository or [download](https://github.com/nikv96/OpenCV-Workshop/ar
   2. Type in ```python```.
   3. In the python shell type in ```import cv2``` and in the next line ```cv2.__version__``` and it should print ```3.1.0```.
 
-#### For MacOSX:
+#### For macOS:
 1. First step,install [Xcode](https://developer.apple.com/xcode/) which is combination of IDE and software developement tools for developing applications on OSX AND iOS platform.
 2. Install [homebrew](http://brew.sh/).
 3. To update brew simply execute: 
